@@ -9,7 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "validate": "echo \"skrip validasi belum dibuat\""
+    "validate": "tsx scripts/validateData.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
