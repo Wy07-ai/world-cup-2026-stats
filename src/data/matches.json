@@ -2607,5 +2607,1096 @@
         "playerId": "PL-ARG-10"
       }
     ]
+  },
+  {
+    "id": "M-073",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-28T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles (Inglewood)",
+    "homeTeamId": "RSA",
+    "awayTeamId": "CAN",
+    "homeScore": 0,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0216",
+        "minute": 90,
+        "extraMinute": 2,
+        "type": "GOAL",
+        "teamId": "CAN",
+        "playerId": "PL-CAN-07"
+      }
+    ]
+  },
+  {
+    "id": "M-074",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-29T20:30:00Z",
+    "venue": "Gillette Stadium, Boston (Foxborough)",
+    "homeTeamId": "GER",
+    "awayTeamId": "PAR",
+    "homeScore": 1,
+    "awayScore": 1,
+    "homePenaltyScore": 3,
+    "awayPenaltyScore": 4,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0217",
+        "minute": 42,
+        "type": "GOAL",
+        "teamId": "PAR",
+        "playerId": "PL-PAR-19"
+      },
+      {
+        "id": "E-0218",
+        "minute": 54,
+        "type": "GOAL",
+        "teamId": "GER",
+        "playerId": "PL-GER-07"
+      }
+    ]
+  },
+  {
+    "id": "M-075",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-30T01:00:00Z",
+    "venue": "Estadio BBVA, Monterrey (Guadalupe)",
+    "homeTeamId": "NED",
+    "awayTeamId": "MAR",
+    "homeScore": 1,
+    "awayScore": 1,
+    "homePenaltyScore": 2,
+    "awayPenaltyScore": 3,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0219",
+        "minute": 72,
+        "type": "GOAL",
+        "teamId": "NED",
+        "playerId": "PL-NED-11"
+      },
+      {
+        "id": "E-0220",
+        "minute": 90,
+        "extraMinute": 1,
+        "type": "GOAL",
+        "teamId": "MAR",
+        "playerId": "PL-MAR-14"
+      }
+    ]
+  },
+  {
+    "id": "M-076",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-29T17:00:00Z",
+    "venue": "NRG Stadium, Houston",
+    "homeTeamId": "BRA",
+    "awayTeamId": "JPN",
+    "homeScore": 2,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0221",
+        "minute": 29,
+        "type": "GOAL",
+        "teamId": "JPN",
+        "playerId": "PL-JPN-24"
+      },
+      {
+        "id": "E-0222",
+        "minute": 56,
+        "type": "GOAL",
+        "teamId": "BRA",
+        "playerId": "PL-BRA-05"
+      },
+      {
+        "id": "E-0223",
+        "minute": 90,
+        "extraMinute": 5,
+        "type": "GOAL",
+        "teamId": "BRA",
+        "playerId": "PL-BRA-22"
+      }
+    ]
+  },
+  {
+    "id": "M-077",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-30T21:00:00Z",
+    "venue": "MetLife Stadium, New York/New Jersey (East Rutherford)",
+    "homeTeamId": "FRA",
+    "awayTeamId": "SWE",
+    "homeScore": 3,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0224",
+        "minute": 45,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      },
+      {
+        "id": "E-0225",
+        "minute": 53,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-12"
+      },
+      {
+        "id": "E-0226",
+        "minute": 74,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      }
+    ]
+  },
+  {
+    "id": "M-078",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-06-30T17:00:00Z",
+    "venue": "AT&T Stadium, Dallas (Arlington)",
+    "homeTeamId": "CIV",
+    "awayTeamId": "NOR",
+    "homeScore": 1,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0227",
+        "minute": 39,
+        "type": "GOAL",
+        "teamId": "NOR",
+        "playerId": "PL-NOR-20"
+      },
+      {
+        "id": "E-0228",
+        "minute": 74,
+        "type": "GOAL",
+        "teamId": "CIV",
+        "playerId": "PL-CIV-15"
+      },
+      {
+        "id": "E-0229",
+        "minute": 86,
+        "type": "GOAL",
+        "teamId": "NOR",
+        "playerId": "PL-NOR-09"
+      }
+    ]
+  },
+  {
+    "id": "M-079",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-01T01:00:00Z",
+    "venue": "Estadio Azteca, Mexico City",
+    "homeTeamId": "MEX",
+    "awayTeamId": "ECU",
+    "homeScore": 2,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0230",
+        "minute": 31,
+        "type": "GOAL",
+        "teamId": "MEX",
+        "playerId": "PL-MEX-16"
+      },
+      {
+        "id": "E-0231",
+        "minute": 45,
+        "extraMinute": 1,
+        "type": "GOAL",
+        "teamId": "MEX",
+        "playerId": "PL-MEX-09"
+      }
+    ]
+  },
+  {
+    "id": "M-080",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-01T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "homeTeamId": "ENG",
+    "awayTeamId": "COD",
+    "homeScore": 2,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0232",
+        "minute": 7,
+        "type": "GOAL",
+        "teamId": "COD",
+        "playerId": "PL-COD-09"
+      },
+      {
+        "id": "E-0233",
+        "minute": 75,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-09"
+      },
+      {
+        "id": "E-0234",
+        "minute": 86,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-09"
+      }
+    ]
+  },
+  {
+    "id": "M-081",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-02T00:00:00Z",
+    "venue": "Levi's Stadium, San Francisco Bay Area (Santa Clara)",
+    "homeTeamId": "USA",
+    "awayTeamId": "BIH",
+    "homeScore": 2,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0235",
+        "minute": 45,
+        "type": "GOAL",
+        "teamId": "USA",
+        "playerId": "PL-USA-20"
+      },
+      {
+        "id": "E-0236",
+        "minute": 82,
+        "type": "GOAL",
+        "teamId": "USA",
+        "playerId": "PL-USA-17"
+      }
+    ]
+  },
+  {
+    "id": "M-082",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-01T20:00:00Z",
+    "venue": "Lumen Field, Seattle",
+    "homeTeamId": "BEL",
+    "awayTeamId": "SEN",
+    "homeScore": 3,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0237",
+        "minute": 25,
+        "type": "GOAL",
+        "teamId": "SEN",
+        "playerId": "PL-SEN-21"
+      },
+      {
+        "id": "E-0238",
+        "minute": 51,
+        "type": "GOAL",
+        "teamId": "SEN",
+        "playerId": "PL-SEN-18"
+      },
+      {
+        "id": "E-0239",
+        "minute": 86,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-09"
+      },
+      {
+        "id": "E-0240",
+        "minute": 89,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-08"
+      },
+      {
+        "id": "E-0241",
+        "minute": 120,
+        "extraMinute": 5,
+        "type": "PENALTY_GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-08"
+      }
+    ]
+  },
+  {
+    "id": "M-083",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-02T23:00:00Z",
+    "venue": "BMO Field, Toronto",
+    "homeTeamId": "POR",
+    "awayTeamId": "CRO",
+    "homeScore": 2,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0242",
+        "minute": 53,
+        "type": "GOAL",
+        "teamId": "CRO",
+        "playerId": "PL-CRO-14"
+      },
+      {
+        "id": "E-0243",
+        "minute": 68,
+        "type": "PENALTY_GOAL",
+        "teamId": "POR",
+        "playerId": "PL-POR-07"
+      },
+      {
+        "id": "E-0244",
+        "minute": 90,
+        "extraMinute": 4,
+        "type": "GOAL",
+        "teamId": "POR",
+        "playerId": "PL-POR-09"
+      }
+    ]
+  },
+  {
+    "id": "M-084",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-02T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles (Inglewood)",
+    "homeTeamId": "ESP",
+    "awayTeamId": "AUT",
+    "homeScore": 3,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0245",
+        "minute": 36,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-21"
+      },
+      {
+        "id": "E-0246",
+        "minute": 66,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-12"
+      },
+      {
+        "id": "E-0247",
+        "minute": 89,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-21"
+      }
+    ]
+  },
+  {
+    "id": "M-085",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-03T03:00:00Z",
+    "venue": "BC Place, Vancouver",
+    "homeTeamId": "SUI",
+    "awayTeamId": "ALG",
+    "homeScore": 2,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0248",
+        "minute": 10,
+        "type": "GOAL",
+        "teamId": "SUI",
+        "playerId": "PL-SUI-07"
+      },
+      {
+        "id": "E-0249",
+        "minute": 46,
+        "type": "GOAL",
+        "teamId": "SUI",
+        "playerId": "PL-SUI-11"
+      }
+    ]
+  },
+  {
+    "id": "M-086",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-03T22:00:00Z",
+    "venue": "Hard Rock Stadium, Miami (Miami Gardens)",
+    "homeTeamId": "ARG",
+    "awayTeamId": "CPV",
+    "homeScore": 3,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0250",
+        "minute": 29,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-10"
+      },
+      {
+        "id": "E-0251",
+        "minute": 59,
+        "type": "GOAL",
+        "teamId": "CPV",
+        "playerId": "PL-CPV-14"
+      },
+      {
+        "id": "E-0252",
+        "minute": 92,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-06"
+      },
+      {
+        "id": "E-0253",
+        "minute": 103,
+        "type": "GOAL",
+        "teamId": "CPV",
+        "playerId": "PL-CPV-13"
+      },
+      {
+        "id": "E-0254",
+        "minute": 111,
+        "type": "OWN_GOAL",
+        "teamId": "CPV",
+        "playerId": "PL-CPV-03"
+      }
+    ]
+  },
+  {
+    "id": "M-087",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-04T01:30:00Z",
+    "venue": "Arrowhead Stadium, Kansas City",
+    "homeTeamId": "COL",
+    "awayTeamId": "GHA",
+    "homeScore": 1,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0255",
+        "minute": 14,
+        "type": "GOAL",
+        "teamId": "COL",
+        "playerId": "PL-COL-11"
+      }
+    ]
+  },
+  {
+    "id": "M-088",
+    "stage": "ROUND_OF_32",
+    "kickoffTime": "2026-07-03T18:00:00Z",
+    "venue": "AT&T Stadium, Dallas (Arlington)",
+    "homeTeamId": "AUS",
+    "awayTeamId": "EGY",
+    "homeScore": 1,
+    "awayScore": 1,
+    "homePenaltyScore": 2,
+    "awayPenaltyScore": 4,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0256",
+        "minute": 13,
+        "type": "GOAL",
+        "teamId": "EGY",
+        "playerId": "PL-EGY-08"
+      },
+      {
+        "id": "E-0257",
+        "minute": 55,
+        "type": "OWN_GOAL",
+        "teamId": "EGY",
+        "playerId": "PL-EGY-03"
+      }
+    ]
+  },
+  {
+    "id": "M-089",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-04T21:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "homeTeamId": "PAR",
+    "awayTeamId": "FRA",
+    "homeScore": 0,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0258",
+        "minute": 70,
+        "type": "PENALTY_GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      }
+    ]
+  },
+  {
+    "id": "M-090",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-04T17:00:00Z",
+    "venue": "NRG Stadium, Houston",
+    "homeTeamId": "CAN",
+    "awayTeamId": "MAR",
+    "homeScore": 0,
+    "awayScore": 3,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0259",
+        "minute": 50,
+        "type": "GOAL",
+        "teamId": "MAR",
+        "playerId": "PL-MAR-08"
+      },
+      {
+        "id": "E-0260",
+        "minute": 82,
+        "type": "GOAL",
+        "teamId": "MAR",
+        "playerId": "PL-MAR-08"
+      },
+      {
+        "id": "E-0261",
+        "minute": 90,
+        "extraMinute": 8,
+        "type": "GOAL",
+        "teamId": "MAR",
+        "playerId": "PL-MAR-09"
+      }
+    ]
+  },
+  {
+    "id": "M-091",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-05T20:00:00Z",
+    "venue": "MetLife Stadium, New York/New Jersey (East Rutherford)",
+    "homeTeamId": "BRA",
+    "awayTeamId": "NOR",
+    "homeScore": 1,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0262",
+        "minute": 79,
+        "type": "GOAL",
+        "teamId": "NOR",
+        "playerId": "PL-NOR-09"
+      },
+      {
+        "id": "E-0263",
+        "minute": 90,
+        "type": "GOAL",
+        "teamId": "NOR",
+        "playerId": "PL-NOR-09"
+      },
+      {
+        "id": "E-0264",
+        "minute": 90,
+        "extraMinute": 10,
+        "type": "PENALTY_GOAL",
+        "teamId": "BRA",
+        "playerId": "PL-BRA-10"
+      }
+    ]
+  },
+  {
+    "id": "M-092",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-06T00:00:00Z",
+    "venue": "Estadio Azteca, Mexico City",
+    "homeTeamId": "MEX",
+    "awayTeamId": "ENG",
+    "homeScore": 2,
+    "awayScore": 3,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0265",
+        "minute": 36,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-10"
+      },
+      {
+        "id": "E-0266",
+        "minute": 38,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-10"
+      },
+      {
+        "id": "E-0267",
+        "minute": 42,
+        "type": "GOAL",
+        "teamId": "MEX",
+        "playerId": "PL-MEX-16"
+      },
+      {
+        "id": "E-0268",
+        "minute": 60,
+        "type": "PENALTY_GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-09"
+      },
+      {
+        "id": "E-0269",
+        "minute": 69,
+        "type": "PENALTY_GOAL",
+        "teamId": "MEX",
+        "playerId": "PL-MEX-09"
+      }
+    ]
+  },
+  {
+    "id": "M-093",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-06T19:00:00Z",
+    "venue": "AT&T Stadium, Dallas (Arlington)",
+    "homeTeamId": "POR",
+    "awayTeamId": "ESP",
+    "homeScore": 0,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0270",
+        "minute": 90,
+        "extraMinute": 1,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-06"
+      }
+    ]
+  },
+  {
+    "id": "M-094",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-07T00:00:00Z",
+    "venue": "Lumen Field, Seattle",
+    "homeTeamId": "USA",
+    "awayTeamId": "BEL",
+    "homeScore": 1,
+    "awayScore": 4,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0271",
+        "minute": 9,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-17"
+      },
+      {
+        "id": "E-0272",
+        "minute": 31,
+        "type": "GOAL",
+        "teamId": "USA",
+        "playerId": "PL-USA-17"
+      },
+      {
+        "id": "E-0273",
+        "minute": 33,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-17"
+      },
+      {
+        "id": "E-0274",
+        "minute": 57,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-20"
+      },
+      {
+        "id": "E-0275",
+        "minute": 90,
+        "extraMinute": 3,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-09"
+      }
+    ]
+  },
+  {
+    "id": "M-095",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-07T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "homeTeamId": "ARG",
+    "awayTeamId": "EGY",
+    "homeScore": 3,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0276",
+        "minute": 15,
+        "type": "GOAL",
+        "teamId": "EGY",
+        "playerId": "PL-EGY-02"
+      },
+      {
+        "id": "E-0277",
+        "minute": 67,
+        "type": "GOAL",
+        "teamId": "EGY",
+        "playerId": "PL-EGY-11"
+      },
+      {
+        "id": "E-0278",
+        "minute": 79,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-13"
+      },
+      {
+        "id": "E-0279",
+        "minute": 83,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-10"
+      },
+      {
+        "id": "E-0280",
+        "minute": 90,
+        "extraMinute": 2,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-24"
+      }
+    ]
+  },
+  {
+    "id": "M-096",
+    "stage": "ROUND_OF_16",
+    "kickoffTime": "2026-07-07T20:00:00Z",
+    "venue": "BC Place, Vancouver",
+    "homeTeamId": "SUI",
+    "awayTeamId": "COL",
+    "homeScore": 0,
+    "awayScore": 0,
+    "homePenaltyScore": 4,
+    "awayPenaltyScore": 3,
+    "isFinished": true,
+    "events": []
+  },
+  {
+    "id": "M-097",
+    "stage": "QUARTER_FINALS",
+    "kickoffTime": "2026-07-09T20:00:00Z",
+    "venue": "Gillette Stadium, Boston (Foxborough)",
+    "homeTeamId": "FRA",
+    "awayTeamId": "MAR",
+    "homeScore": 2,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0281",
+        "minute": 60,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      },
+      {
+        "id": "E-0282",
+        "minute": 66,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-07"
+      }
+    ]
+  },
+  {
+    "id": "M-098",
+    "stage": "QUARTER_FINALS",
+    "kickoffTime": "2026-07-10T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles (Inglewood)",
+    "homeTeamId": "ESP",
+    "awayTeamId": "BEL",
+    "homeScore": 2,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0283",
+        "minute": 30,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-08"
+      },
+      {
+        "id": "E-0284",
+        "minute": 41,
+        "type": "GOAL",
+        "teamId": "BEL",
+        "playerId": "PL-BEL-17"
+      },
+      {
+        "id": "E-0285",
+        "minute": 88,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-06"
+      }
+    ]
+  },
+  {
+    "id": "M-099",
+    "stage": "QUARTER_FINALS",
+    "kickoffTime": "2026-07-11T21:00:00Z",
+    "venue": "Hard Rock Stadium, Miami (Miami Gardens)",
+    "homeTeamId": "NOR",
+    "awayTeamId": "ENG",
+    "homeScore": 1,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0286",
+        "minute": 36,
+        "type": "GOAL",
+        "teamId": "NOR",
+        "playerId": "PL-NOR-21"
+      },
+      {
+        "id": "E-0287",
+        "minute": 45,
+        "extraMinute": 2,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-10"
+      },
+      {
+        "id": "E-0288",
+        "minute": 93,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-10"
+      }
+    ]
+  },
+  {
+    "id": "M-100",
+    "stage": "QUARTER_FINALS",
+    "kickoffTime": "2026-07-12T01:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City",
+    "homeTeamId": "ARG",
+    "awayTeamId": "SUI",
+    "homeScore": 3,
+    "awayScore": 1,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0289",
+        "minute": 10,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-20"
+      },
+      {
+        "id": "E-0290",
+        "minute": 67,
+        "type": "GOAL",
+        "teamId": "SUI",
+        "playerId": "PL-SUI-11"
+      },
+      {
+        "id": "E-0291",
+        "minute": 112,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-09"
+      },
+      {
+        "id": "E-0292",
+        "minute": 120,
+        "extraMinute": 1,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-22"
+      }
+    ]
+  },
+  {
+    "id": "M-101",
+    "stage": "SEMI_FINALS",
+    "kickoffTime": "2026-07-14T19:00:00Z",
+    "venue": "AT&T Stadium, Dallas (Arlington)",
+    "homeTeamId": "FRA",
+    "awayTeamId": "ESP",
+    "homeScore": 0,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0293",
+        "minute": 22,
+        "type": "PENALTY_GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-21"
+      },
+      {
+        "id": "E-0294",
+        "minute": 58,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-12"
+      }
+    ]
+  },
+  {
+    "id": "M-102",
+    "stage": "SEMI_FINALS",
+    "kickoffTime": "2026-07-15T19:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "homeTeamId": "ENG",
+    "awayTeamId": "ARG",
+    "homeScore": 1,
+    "awayScore": 2,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0295",
+        "minute": 55,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-18"
+      },
+      {
+        "id": "E-0296",
+        "minute": 86,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-24"
+      },
+      {
+        "id": "E-0297",
+        "minute": 90,
+        "extraMinute": 2,
+        "type": "GOAL",
+        "teamId": "ARG",
+        "playerId": "PL-ARG-22"
+      }
+    ]
+  },
+  {
+    "id": "M-103",
+    "stage": "THIRD_PLACE",
+    "kickoffTime": "2026-07-18T21:00:00Z",
+    "venue": "Hard Rock Stadium, Miami (Miami Gardens)",
+    "homeTeamId": "FRA",
+    "awayTeamId": "ENG",
+    "homeScore": 4,
+    "awayScore": 6,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0298",
+        "minute": 3,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-04"
+      },
+      {
+        "id": "E-0299",
+        "minute": 18,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-02"
+      },
+      {
+        "id": "E-0300",
+        "minute": 37,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-07"
+      },
+      {
+        "id": "E-0301",
+        "minute": 45,
+        "extraMinute": 1,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-07"
+      },
+      {
+        "id": "E-0302",
+        "minute": 48,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      },
+      {
+        "id": "E-0303",
+        "minute": 54,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-12"
+      },
+      {
+        "id": "E-0304",
+        "minute": 66,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-10"
+      },
+      {
+        "id": "E-0305",
+        "minute": 87,
+        "type": "PENALTY_GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-07"
+      },
+      {
+        "id": "E-0306",
+        "minute": 90,
+        "extraMinute": 6,
+        "type": "GOAL",
+        "teamId": "FRA",
+        "playerId": "PL-FRA-07"
+      },
+      {
+        "id": "E-0307",
+        "minute": 90,
+        "extraMinute": 8,
+        "type": "GOAL",
+        "teamId": "ENG",
+        "playerId": "PL-ENG-10"
+      }
+    ]
+  },
+  {
+    "id": "M-104",
+    "stage": "FINAL",
+    "kickoffTime": "2026-07-19T19:00:00Z",
+    "venue": "MetLife Stadium, New York/New Jersey (East Rutherford)",
+    "homeTeamId": "ESP",
+    "awayTeamId": "ARG",
+    "homeScore": 1,
+    "awayScore": 0,
+    "isFinished": true,
+    "events": [
+      {
+        "id": "E-0308",
+        "minute": 106,
+        "type": "GOAL",
+        "teamId": "ESP",
+        "playerId": "PL-ESP-07"
+      }
+    ]
   }
 ]

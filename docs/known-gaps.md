@@ -96,3 +96,35 @@ Kolom "Event" = jumlah event yang tercatat (semuanya gol). Untuk setiap baris di
 ## Perlu keputusan pihak lain (bukan wewenang Claude #4)
 - Claude #1 / pengguna: apakah akan menyediakan sumber kartu, assist, dan pergantian (mis. berkas rincian laga) agar bisa diisi pada putaran berikutnya? Tanpa itu, fair play dan assist tidak akan bermakna.
 - UI (Claude #2/#5): jangan menampilkan fair play, kartu, atau assist sebagai angka nyata "0" tanpa catatan bahwa datanya belum tersedia.
+
+---
+
+# Tambahan prompt 5 (Claude #4): fase gugur dan skuad pemain
+
+Diperbarui: 2026-10-27.
+
+## A. Fase gugur (M-073 – M-104): kekurangan yang sama dengan fase grup
+Sumber (`scripts/raw/worldcup.json`) hanya memuat skor, pencetak gol + menit, penanda penalti, dan penanda gol bunuh diri. Untuk **semua 32 laga fase gugur** data berikut **tidak tersedia dan tidak diisi**: assist (`relatedPlayerId`), `YELLOW_CARD`, `RED_CARD`, `SUBSTITUTION`. Dampak sama seperti fase grup: `assists`, kartu, dan `fairPlayPoints` akan 0 saat dihitung, dan menit bermain tidak dapat dihitung akurat. UI tidak boleh menampilkan angka 0 itu sebagai fakta.
+
+Skor fase gugur = skor setelah waktu normal + perpanjangan (`score.et` bila ada, selain itu `score.ft`). Adu penalti hanya di `homePenaltyScore`/`awayPenaltyScore` dan tidak dicatat sebagai event. Ada 4 laga adu penalti: M-074, M-075, M-088, dan M-096.
+
+## B. Hal yang perlu verifikasi manusia (data laga fase gugur)
+| Laga | Masalah | Tindakan Claude #4 | Status |
+|---|---|---|---|
+| M-102 | Sumber mencatat gol Lautaro Martínez pada menit polos "92" padahal laga tidak punya perpanjangan (hanya `ft`) | Dinormalisasi menjadi `minute: 90, extraMinute: 2` (asumsi: waktu tambahan babak kedua) | sejalan dengan satu situs sekunder (worldcupranking.com mencatat 90+2'); belum dicek ke FIFA |
+| M-073 | Nama di data laga "Stephan Eustáquio", skuad "Stephen Eustáquio" | Dicocokkan lewat nama belakang (kandidat tunggal) | perlu verifikasi |
+| M-086 | Gol bunuh diri oleh "Diney Borges"; skuad CPV hanya memuat "Diney" (#3, DF) | Dicocokkan ke `PL-CPV-03` (kandidat tunggal) | perlu verifikasi |
+| M-095 | "Mostafa Zico" vs skuad "Mostafa Ziko" | Alias yang sama dengan M-040 (prompt 4) | perlu verifikasi |
+
+- Nomor laga M-073 – M-104 diambil dari field `num` di sumber dan cocok dengan rentang yang dipakai konvensi; kesesuaian dengan nomor resmi FIFA **belum terverifikasi**. Sebaliknya M-001 – M-072 (fase grup) **bukan** nomor resmi (urut kronologis buatan Claude #4, lihat `docs/data-sources.md`). Akibatnya penomoran campuran: bagian gugur "resmi menurut sumber", bagian grup tidak.
+- Struktur bagan (siapa melawan siapa) **tidak** dicocokkan dengan regulasi FIFA. Yang diperiksa hanya konsistensi internal: tiap peserta babak berikutnya adalah pemenang babak sebelumnya menurut data.
+- Cek silang web (2026-10-27, hanya sebagian kecil, bukan verifikasi penuh): skor dan penomoran M-084, M-098, M-101, M-102, M-103 (Inggris 6–4 Prancis), dan M-104 (Spanyol 1–0 Argentina setelah perpanjangan, Torres 106') sejalan dengan beberapa situs berita/statistik. Sumber itu juga mencatat kartu merah Enzo Fernández (90+3') pada Final, yang **tidak ada** di `matches.json` karena sumber data kita tidak memuat kartu (kekurangan A di atas). Laga lain belum dicek silang.
+- Kebenaran faktual semua skor/pencetak gol/menit: satu sumber, belum dicocokkan dengan FIFA atau sumber kedua. Zona waktu `kickoffTime` memakai offset yang tertulis di sumber dan belum diperiksa silang.
+- Nama stadion memakai nama komersial dari `stadiums.json`, belum dicocokkan dengan nama resmi turnamen.
+
+## C. Skuad pemain (players.json: 1.248 pemain)
+- Semua **48 tim memiliki 26 pemain** di sumber (`scripts/raw/squads.json`, openfootball), nomor punggung unik per tim, posisi valid. Tidak ada tim yang jumlahnya kurang, dan tidak ada nama yang dikarang.
+- **Belum terverifikasi untuk SEMUA 48 tim**: daftar skuad berasal dari satu sumber komunitas dan tidak dicocokkan dengan daftar resmi FIFA. Tidak ada tim yang saya lewati karena skuad "tidak resmi", tetapi status "resmi" tidak dapat saya buktikan. Verifikasi manusia/agen lain diperlukan sebelum rilis.
+- Kemungkinan perubahan skuad (cedera, pengganti) setelah daftar sumber dibuat tidak terpantau.
+- `shortName` (nama di jersey) tidak ada di sumber. Aturan sementara: kata terakhir nama lengkap (sama dengan prompt 4). Akibatnya: 4 pemain bernama akhiran seperti sufiks (`PL-BRA-07` "Júnior", `PL-HAI-07` "Jr.", `PL-POR-18` "Neto", `PL-QAT-08` "Junior"), 21 pemain bernama tunggal, dan 42 pasangan `shortName` kembar di dalam satu tim. Semuanya **belum terverifikasi** dan perlu dikoreksi manual bila ingin nama jersey yang tepat (butuh persetujuan karena `shortName` pemain lama pada prompt 4 tidak boleh berubah tanpa keputusan pemilik data).
+- Foto belum ada; lihat `docs/players-photos-checklist.md`.

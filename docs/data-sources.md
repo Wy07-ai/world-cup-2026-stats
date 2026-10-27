@@ -99,3 +99,19 @@ Nama pencetak di data laga dicocokkan ke skuad tim: 215 gol → 215 pemain terse
 - Offset zona waktu per laga dan hasil konversi UTC (hanya M-001 yang dibandingkan dengan contoh PRD).
 - Nama stadion terhadap penamaan resmi; `shortName` pemain; delapan pencocokan nama pemain pada tabel di atas.
 - Status laga: semua 72 laga sudah lewat dari 2026-10-27 dan seluruhnya punya skor final di sumber, jadi daftar "Belum terverifikasi" untuk skor kosong (0 laga).
+
+---
+
+# Fase gugur dan skuad penuh (prompt 5)
+
+Diperbarui: 2026-10-27. **Tidak ada sumber baru**; semua data berasal dari berkas yang sudah tercatat di bagian "Data laga (prompt 4)" di atas (`scripts/raw/worldcup.json`, `squads.json`, `stadiums.json`; openfootball, diakses 2026-10-27). Tidak ada akses internet yang dipakai pada prompt ini.
+
+| Data | Berkas | Catatan |
+|---|---|---|
+| 32 laga fase gugur: nomor (`num` 73–104), tim, skor ft/et/penalti, gol, menit, jam kickoff lokal, kota | `worldcup.json` | skor akhir = `et` bila ada, selain itu `ft`; penalti dari `score.p` (urutan tim1, tim2) |
+| Venue | `stadiums.json` | "Nama Stadion, Kota" seperti fase grup |
+| 1.248 pemain (26 x 48): nama, nomor, posisi | `squads.json` | `shortName` = kata terakhir nama (asumsi, belum terverifikasi) |
+
+Reproduksi: `node scripts/build-matches.mjs` (72 laga grup + 154 pemain awal) lalu `node scripts/build-knockout.mjs` (menambah 32 laga fase gugur dan melengkapi skuad; 72 laga grup dan 154 pemain lama tidak diubah), lalu `node scripts/validate-data.mjs`.
+
+Acuan PRD: dokumen yang dipakai adalah `master-prd-world-cup-2026-lengkap.docx` (unggahan pengguna), bukan `docs/master-prd.md` yang di repositori masih placeholder.

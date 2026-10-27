@@ -3,7 +3,8 @@ import { readFileSync } from "node:fs";
 
 const rd = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const teams = rd("../src/data/teams.json");
-const matches = rd("../src/data/matches.json");
+// Skrip ini hanya memvalidasi 72 laga fase grup (prompt 4); validasi penuh 104 laga: scripts/validate-data.mjs
+const matches = rd("../src/data/matches.json").filter((m) => m.stage === "GROUP_STAGE");
 const players = rd("../src/data/players.json");
 const raw = rd("./raw/worldcup.json").matches.filter((m) => m.group);
 const squads = rd("./raw/squads.json");
@@ -100,8 +101,7 @@ for (const t of teams) {
 }
 check(new Set(evIds).size === evIds.length, "id event tidak unik global");
 evIds.forEach((id, i) => check(id === `E-${String(i + 1).padStart(4, "0")}`, `id event tidak berurutan: ${id}`));
-const unusedPlayers = players.filter((p) => !matches.some((m) => m.events.some((e) => e.playerId === p.id)));
-check(unusedPlayers.length === 0, `pemain tak terpakai event: ${unusedPlayers.map((p) => p.id)}`);
+// (cek "pemain tak terpakai event" dihapus pada prompt 5: players.json kini berisi skuad penuh)
 
 console.log(`laga: ${matches.length} | selesai: ${matches.filter((m) => m.isFinished).length} | event: ${evIds.length} | pemain: ${players.length}`);
 console.log("laga per grup:", JSON.stringify(perGroup));

@@ -180,3 +180,41 @@ lineups?: { home: MatchLineup; away: MatchLineup };
 **Usulan.** Jadikan `homeTeamId` / `awayTeamId` bertipe `string | null`, atau simpan jadwal fase gugur terpisah dari `Match`.
 
 **Dampak.** Semua kode yang membaca `Match.homeTeamId` harus menangani `null`; `BracketNode.matchId` bisa selalu terisi. Bila ditolak, bagan tetap berfungsi karena `BracketNode` membawa `homeSource` dan `awaySource`, hanya jadwal laga mendatang yang tidak tampil dari data `Match`.
+
+## 10. Placeholder bracket (ditambahkan Claude #4, prompt 5)
+
+> Bagian ini hanya **menambah**; bagian 1–9 milik Claude #1 tidak diubah. Acuan PRD: Bab 4.1 (tipe `Match`, `homeTeamId`/`awayTeamId` bertipe `string`) dan Bab 4.3 (integritas relasi). PRD tidak menyebut placeholder, jadi aturan ini adalah **[ASUMSI]** Claude #4 berdasarkan spesifikasi tugas; bila PRD/Claude #1 menetapkan lain, pihak itu yang menang.
+
+**Kapan dipakai.** Hanya pada laga fase gugur yang pesertanya belum pasti. Per 2026-10-27 seluruh 32 laga fase gugur sudah dimainkan dan pesertanya diketahui dari sumber, sehingga `matches.json` saat ini memuat **0 slot placeholder**. Konvensi ini tetap berlaku untuk pembaruan/rekonstruksi data berikutnya (dibaca `buildBracket` oleh Claude #3 dan validator oleh Claude #1).
+
+### 10.1 Pola yang diizinkan
+
+| Pola (regex) | Arti | Contoh | Boleh pada |
+|---|---|---|---|
+| `^[12][A-L]$` | juara (1) atau runner-up (2) grup | `1A`, `2B` | `ROUND_OF_32` |
+| `^3rd-[A-L]{2,8}$` | peringkat ketiga dari salah satu grup yang tercantum | `3rd-ABCDF` | `ROUND_OF_32` |
+| `^W-M\d{3}$` | pemenang laga bernomor itu | `W-M073` | `ROUND_OF_16`, `QUARTER_FINALS`, `SEMI_FINALS`, `FINAL` |
+| `^L-M\d{3}$` | pecundang laga bernomor itu | `L-M101` | hanya `THIRD_PLACE` (merujuk `SEMI_FINALS`) |
+
+Aturan tambahan (diterapkan `scripts/validate-data.mjs`):
+
+1. Huruf pada `3rd-…` WAJIB terurut naik dan tanpa duplikat (`3rd-ABCDF`, bukan `3rd-FDCBA`). **[ASUMSI: lebih ketat daripada regex.]**
+2. `W-Mnnn` / `L-Mnnn` WAJIB merujuk laga yang benar-benar ada di `matches.json` dan bernomor **lebih kecil** daripada laga yang memuatnya.
+3. Susunan sumber tiap laga WAJIB disalin dari regulasi resmi FIFA. DILARANG mengarang atau menebak pasangan. Bila regulasi belum tersedia, laga itu tidak ditambahkan dengan pasangan tebakan; catat di `docs/known-gaps.md`.
+4. Kolom lain tetap seperti laga belum dimainkan: `isFinished: false`, `homeScore: 0`, `awayScore: 0`, `events: []`, tanpa `homePenaltyScore`/`awayPenaltyScore`. Laga yang memuat placeholder DILARANG `isFinished: true`.
+5. Campuran satu id tim nyata + satu placeholder diizinkan selama laga belum selesai.
+
+### 10.2 Larangan
+
+- Nilai placeholder DILARANG ada di `teams.json` (`id` maupun `code`), di `Player.teamId`, dan di `MatchEvent.teamId`. Placeholder hanya boleh muncul di `Match.homeTeamId` / `Match.awayTeamId` fase gugur.
+- Placeholder DILARANG dipakai sebagai kunci pencarian tim di UI tanpa penanganan khusus: `teamById.get("1A")` selalu `undefined`. Konsumen (`buildBracket`, UI) WAJIB mengenali pola di 10.1 lebih dulu.
+
+### 10.3 Siklus hidup slot
+
+1. Slot berisi placeholder → `buildBracket` menurunkannya dari klasemen / hasil laga rujukan.
+2. Peserta pasti → record `Match` yang sama (id laga tidak berubah) diperbarui dengan id tim nyata; id event tetap berurutan global.
+3. Laga dimainkan → skor, penalti, `isFinished: true`, dan `events` diisi sesuai bagian 2–5.
+
+### 10.4 Catatan konflik untuk Claude #1
+
+- Bagian 6 butir terakhir menyatakan record fase gugur baru dibuat setelah kedua tim pasti, dan bagian 9.2 mengusulkan `homeTeamId | null`. Tugas Claude #4 mewajibkan placeholder string, yang valid terhadap tipe `string` pada `index.d.ts` saat ini tanpa mengubah skema. Konflik ini **tidak** muncul pada data saat ini (0 placeholder), tetapi Claude #1 perlu memutuskan mana yang berlaku bila ada laga yang belum dimainkan.
