@@ -1,0 +1,2620 @@
+[
+  {
+    "id": "PL-ALG-07",
+    "teamId": "ALG",
+    "name": "Riyad Mahrez",
+    "shortName": "Mahrez",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-alg-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ALG-09",
+    "teamId": "ALG",
+    "name": "Amine Gouiri",
+    "shortName": "Gouiri",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-alg-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ALG-12",
+    "teamId": "ALG",
+    "name": "Nadhir Benbouali",
+    "shortName": "Benbouali",
+    "shirtNumber": 12,
+    "position": "FW",
+    "photoUrl": "/players/pl-alg-12.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ALG-17",
+    "teamId": "ALG",
+    "name": "Rafik Belghali",
+    "shortName": "Belghali",
+    "shirtNumber": 17,
+    "position": "DF",
+    "photoUrl": "/players/pl-alg-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ARG-10",
+    "teamId": "ARG",
+    "name": "Lionel Messi",
+    "shortName": "Messi",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-arg-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ARG-11",
+    "teamId": "ARG",
+    "name": "Giovani Lo Celso",
+    "shortName": "Celso",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-arg-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ARG-22",
+    "teamId": "ARG",
+    "name": "Lautaro Martínez",
+    "shortName": "Martínez",
+    "shirtNumber": 22,
+    "position": "FW",
+    "photoUrl": "/players/pl-arg-22.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUS-08",
+    "teamId": "AUS",
+    "name": "Connor Metcalfe",
+    "shortName": "Metcalfe",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-aus-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUS-17",
+    "teamId": "AUS",
+    "name": "Nestory Irankunda",
+    "shortName": "Irankunda",
+    "shirtNumber": 17,
+    "position": "FW",
+    "photoUrl": "/players/pl-aus-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUS-21",
+    "teamId": "AUS",
+    "name": "Cameron Burgess",
+    "shortName": "Burgess",
+    "shirtNumber": 21,
+    "position": "DF",
+    "photoUrl": "/players/pl-aus-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUT-07",
+    "teamId": "AUT",
+    "name": "Marko Arnautović",
+    "shortName": "Arnautović",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-aut-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUT-09",
+    "teamId": "AUT",
+    "name": "Marcel Sabitzer",
+    "shortName": "Sabitzer",
+    "shirtNumber": 9,
+    "position": "MF",
+    "photoUrl": "/players/pl-aut-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUT-14",
+    "teamId": "AUT",
+    "name": "Saša Kalajdžić",
+    "shortName": "Kalajdžić",
+    "shirtNumber": 14,
+    "position": "FW",
+    "photoUrl": "/players/pl-aut-14.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-AUT-18",
+    "teamId": "AUT",
+    "name": "Romano Schmid",
+    "shortName": "Schmid",
+    "shirtNumber": 18,
+    "position": "MF",
+    "photoUrl": "/players/pl-aut-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BEL-07",
+    "teamId": "BEL",
+    "name": "Kevin De Bruyne",
+    "shortName": "Bruyne",
+    "shirtNumber": 7,
+    "position": "MF",
+    "photoUrl": "/players/pl-bel-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BEL-09",
+    "teamId": "BEL",
+    "name": "Romelu Lukaku",
+    "shortName": "Lukaku",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-bel-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BEL-10",
+    "teamId": "BEL",
+    "name": "Leandro Trossard",
+    "shortName": "Trossard",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-bel-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BEL-22",
+    "teamId": "BEL",
+    "name": "Alexis Saelemaekers",
+    "shortName": "Saelemaekers",
+    "shirtNumber": 22,
+    "position": "MF",
+    "photoUrl": "/players/pl-bel-22.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BIH-19",
+    "teamId": "BIH",
+    "name": "Kerim Alajbegović",
+    "shortName": "Alajbegović",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-bih-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BIH-25",
+    "teamId": "BIH",
+    "name": "Jovo Lukić",
+    "shortName": "Lukić",
+    "shirtNumber": 25,
+    "position": "FW",
+    "photoUrl": "/players/pl-bih-25.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BIH-26",
+    "teamId": "BIH",
+    "name": "Ermin Mahmić",
+    "shortName": "Mahmić",
+    "shirtNumber": 26,
+    "position": "MF",
+    "photoUrl": "/players/pl-bih-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BRA-07",
+    "teamId": "BRA",
+    "name": "Vinícius Júnior",
+    "shortName": "Júnior",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-bra-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-BRA-09",
+    "teamId": "BRA",
+    "name": "Matheus Cunha",
+    "shortName": "Cunha",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-bra-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CAN-09",
+    "teamId": "CAN",
+    "name": "Cyle Larin",
+    "shortName": "Larin",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-can-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CAN-10",
+    "teamId": "CAN",
+    "name": "Jonathan David",
+    "shortName": "David",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-can-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CAN-24",
+    "teamId": "CAN",
+    "name": "Promise David",
+    "shortName": "David",
+    "shirtNumber": 24,
+    "position": "FW",
+    "photoUrl": "/players/pl-can-24.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CAN-25",
+    "teamId": "CAN",
+    "name": "Nathan Saliba",
+    "shortName": "Saliba",
+    "shirtNumber": 25,
+    "position": "MF",
+    "photoUrl": "/players/pl-can-25.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CIV-08",
+    "teamId": "CIV",
+    "name": "Franck Kessié",
+    "shortName": "Kessié",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-civ-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CIV-15",
+    "teamId": "CIV",
+    "name": "Amad Diallo",
+    "shortName": "Diallo",
+    "shirtNumber": 15,
+    "position": "FW",
+    "photoUrl": "/players/pl-civ-15.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CIV-19",
+    "teamId": "CIV",
+    "name": "Nicolas Pépé",
+    "shortName": "Pépé",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-civ-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-COD-19",
+    "teamId": "COD",
+    "name": "Fiston Mayele",
+    "shortName": "Mayele",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-cod-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-COD-20",
+    "teamId": "COD",
+    "name": "Yoane Wissa",
+    "shortName": "Wissa",
+    "shirtNumber": 20,
+    "position": "FW",
+    "photoUrl": "/players/pl-cod-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-COL-02",
+    "teamId": "COL",
+    "name": "Daniel Muñoz",
+    "shortName": "Muñoz",
+    "shirtNumber": 2,
+    "position": "DF",
+    "photoUrl": "/players/pl-col-02.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-COL-07",
+    "teamId": "COL",
+    "name": "Luis Díaz",
+    "shortName": "Díaz",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-col-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-COL-21",
+    "teamId": "COL",
+    "name": "Jaminton Campaz",
+    "shortName": "Campaz",
+    "shirtNumber": 21,
+    "position": "FW",
+    "photoUrl": "/players/pl-col-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CPV-06",
+    "teamId": "CPV",
+    "name": "Kevin Pina",
+    "shortName": "Pina",
+    "shirtNumber": 6,
+    "position": "MF",
+    "photoUrl": "/players/pl-cpv-06.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CPV-26",
+    "teamId": "CPV",
+    "name": "Hélio Varela",
+    "shortName": "Varela",
+    "shirtNumber": 26,
+    "position": "MF",
+    "photoUrl": "/players/pl-cpv-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CRO-11",
+    "teamId": "CRO",
+    "name": "Ante Budimir",
+    "shortName": "Budimir",
+    "shirtNumber": 11,
+    "position": "FW",
+    "photoUrl": "/players/pl-cro-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CRO-13",
+    "teamId": "CRO",
+    "name": "Nikola Vlašić",
+    "shortName": "Vlašić",
+    "shirtNumber": 13,
+    "position": "MF",
+    "photoUrl": "/players/pl-cro-13.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CRO-16",
+    "teamId": "CRO",
+    "name": "Martin Baturina",
+    "shortName": "Baturina",
+    "shirtNumber": 16,
+    "position": "MF",
+    "photoUrl": "/players/pl-cro-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CRO-17",
+    "teamId": "CRO",
+    "name": "Petar Sučić",
+    "shortName": "Sučić",
+    "shirtNumber": 17,
+    "position": "MF",
+    "photoUrl": "/players/pl-cro-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CRO-26",
+    "teamId": "CRO",
+    "name": "Petar Musa",
+    "shortName": "Musa",
+    "shirtNumber": 26,
+    "position": "FW",
+    "photoUrl": "/players/pl-cro-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CUW-08",
+    "teamId": "CUW",
+    "name": "Livano Comenencia",
+    "shortName": "Comenencia",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-cuw-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CZE-07",
+    "teamId": "CZE",
+    "name": "Ladislav Krejčí",
+    "shortName": "Krejčí",
+    "shirtNumber": 7,
+    "position": "DF",
+    "photoUrl": "/players/pl-cze-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-CZE-18",
+    "teamId": "CZE",
+    "name": "Michal Sadílek",
+    "shortName": "Sadílek",
+    "shirtNumber": 18,
+    "position": "MF",
+    "photoUrl": "/players/pl-cze-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ECU-19",
+    "teamId": "ECU",
+    "name": "Gonzalo Plata",
+    "shortName": "Plata",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-ecu-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ECU-20",
+    "teamId": "ECU",
+    "name": "Nilson Angulo",
+    "shortName": "Angulo",
+    "shirtNumber": 20,
+    "position": "FW",
+    "photoUrl": "/players/pl-ecu-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-03",
+    "teamId": "EGY",
+    "name": "Mohamed Hany",
+    "shortName": "Hany",
+    "shirtNumber": 3,
+    "position": "DF",
+    "photoUrl": "/players/pl-egy-03.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-07",
+    "teamId": "EGY",
+    "name": "Trézéguet",
+    "shortName": "Trézéguet",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-egy-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-08",
+    "teamId": "EGY",
+    "name": "Emam Ashour",
+    "shortName": "Ashour",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-egy-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-10",
+    "teamId": "EGY",
+    "name": "Mohamed Salah",
+    "shortName": "Salah",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-egy-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-11",
+    "teamId": "EGY",
+    "name": "Mostafa Ziko",
+    "shortName": "Ziko",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-egy-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-EGY-21",
+    "teamId": "EGY",
+    "name": "Mahmoud Saber",
+    "shortName": "Saber",
+    "shirtNumber": 21,
+    "position": "MF",
+    "photoUrl": "/players/pl-egy-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ENG-09",
+    "teamId": "ENG",
+    "name": "Harry Kane",
+    "shortName": "Kane",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-eng-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ENG-10",
+    "teamId": "ENG",
+    "name": "Jude Bellingham",
+    "shortName": "Bellingham",
+    "shirtNumber": 10,
+    "position": "MF",
+    "photoUrl": "/players/pl-eng-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ENG-11",
+    "teamId": "ENG",
+    "name": "Marcus Rashford",
+    "shortName": "Rashford",
+    "shirtNumber": 11,
+    "position": "FW",
+    "photoUrl": "/players/pl-eng-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ESP-15",
+    "teamId": "ESP",
+    "name": "Álex Baena",
+    "shortName": "Baena",
+    "shirtNumber": 15,
+    "position": "MF",
+    "photoUrl": "/players/pl-esp-15.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ESP-19",
+    "teamId": "ESP",
+    "name": "Lamine Yamal",
+    "shortName": "Yamal",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-esp-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-ESP-21",
+    "teamId": "ESP",
+    "name": "Mikel Oyarzabal",
+    "shortName": "Oyarzabal",
+    "shirtNumber": 21,
+    "position": "FW",
+    "photoUrl": "/players/pl-esp-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-FRA-07",
+    "teamId": "FRA",
+    "name": "Ousmane Dembélé",
+    "shortName": "Dembélé",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-fra-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-FRA-10",
+    "teamId": "FRA",
+    "name": "Kylian Mbappé",
+    "shortName": "Mbappé",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-fra-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-FRA-12",
+    "teamId": "FRA",
+    "name": "Bradley Barcola",
+    "shortName": "Barcola",
+    "shirtNumber": 12,
+    "position": "FW",
+    "photoUrl": "/players/pl-fra-12.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-FRA-20",
+    "teamId": "FRA",
+    "name": "Désiré Doué",
+    "shortName": "Doué",
+    "shirtNumber": 20,
+    "position": "FW",
+    "photoUrl": "/players/pl-fra-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-07",
+    "teamId": "GER",
+    "name": "Kai Havertz",
+    "shortName": "Havertz",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-ger-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-10",
+    "teamId": "GER",
+    "name": "Jamal Musiala",
+    "shortName": "Musiala",
+    "shirtNumber": 10,
+    "position": "MF",
+    "photoUrl": "/players/pl-ger-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-15",
+    "teamId": "GER",
+    "name": "Nico Schlotterbeck",
+    "shortName": "Schlotterbeck",
+    "shirtNumber": 15,
+    "position": "DF",
+    "photoUrl": "/players/pl-ger-15.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-18",
+    "teamId": "GER",
+    "name": "Nathaniel Brown",
+    "shortName": "Brown",
+    "shirtNumber": 18,
+    "position": "DF",
+    "photoUrl": "/players/pl-ger-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-19",
+    "teamId": "GER",
+    "name": "Leroy Sané",
+    "shortName": "Sané",
+    "shirtNumber": 19,
+    "position": "MF",
+    "photoUrl": "/players/pl-ger-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-23",
+    "teamId": "GER",
+    "name": "Felix Nmecha",
+    "shortName": "Nmecha",
+    "shirtNumber": 23,
+    "position": "MF",
+    "photoUrl": "/players/pl-ger-23.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GER-26",
+    "teamId": "GER",
+    "name": "Deniz Undav",
+    "shortName": "Undav",
+    "shirtNumber": 26,
+    "position": "FW",
+    "photoUrl": "/players/pl-ger-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GHA-03",
+    "teamId": "GHA",
+    "name": "Caleb Yirenkyi",
+    "shortName": "Yirenkyi",
+    "shirtNumber": 3,
+    "position": "MF",
+    "photoUrl": "/players/pl-gha-03.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-GHA-23",
+    "teamId": "GHA",
+    "name": "Derrick Luckassen",
+    "shortName": "Luckassen",
+    "shirtNumber": 23,
+    "position": "DF",
+    "photoUrl": "/players/pl-gha-23.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-HAI-18",
+    "teamId": "HAI",
+    "name": "Wilson Isidor",
+    "shortName": "Isidor",
+    "shirtNumber": 18,
+    "position": "FW",
+    "photoUrl": "/players/pl-hai-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-IRN-08",
+    "teamId": "IRN",
+    "name": "Mohammad Mohebi",
+    "shortName": "Mohebi",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-irn-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-IRN-23",
+    "teamId": "IRN",
+    "name": "Ramin Rezaeian",
+    "shortName": "Rezaeian",
+    "shirtNumber": 23,
+    "position": "DF",
+    "photoUrl": "/players/pl-irn-23.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-IRQ-18",
+    "teamId": "IRQ",
+    "name": "Aymen Hussein",
+    "shortName": "Hussein",
+    "shirtNumber": 18,
+    "position": "FW",
+    "photoUrl": "/players/pl-irq-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JOR-05",
+    "teamId": "JOR",
+    "name": "Yazan Al-Arab",
+    "shortName": "Al-Arab",
+    "shirtNumber": 5,
+    "position": "DF",
+    "photoUrl": "/players/pl-jor-05.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JOR-09",
+    "teamId": "JOR",
+    "name": "Ali Olwan",
+    "shortName": "Olwan",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-jor-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JOR-10",
+    "teamId": "JOR",
+    "name": "Musa Al-Taamari",
+    "shortName": "Al-Taamari",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-jor-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JOR-21",
+    "teamId": "JOR",
+    "name": "Nizar Al-Rashdan",
+    "shortName": "Al-Rashdan",
+    "shirtNumber": 21,
+    "position": "MF",
+    "photoUrl": "/players/pl-jor-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JPN-11",
+    "teamId": "JPN",
+    "name": "Daizen Maeda",
+    "shortName": "Maeda",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-jpn-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JPN-13",
+    "teamId": "JPN",
+    "name": "Keito Nakamura",
+    "shortName": "Nakamura",
+    "shirtNumber": 13,
+    "position": "MF",
+    "photoUrl": "/players/pl-jpn-13.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JPN-14",
+    "teamId": "JPN",
+    "name": "Junya Itō",
+    "shortName": "Itō",
+    "shirtNumber": 14,
+    "position": "MF",
+    "photoUrl": "/players/pl-jpn-14.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JPN-15",
+    "teamId": "JPN",
+    "name": "Daichi Kamada",
+    "shortName": "Kamada",
+    "shirtNumber": 15,
+    "position": "MF",
+    "photoUrl": "/players/pl-jpn-15.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-JPN-18",
+    "teamId": "JPN",
+    "name": "Ayase Ueda",
+    "shortName": "Ueda",
+    "shirtNumber": 18,
+    "position": "FW",
+    "photoUrl": "/players/pl-jpn-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-KOR-06",
+    "teamId": "KOR",
+    "name": "Hwang In-beom",
+    "shortName": "In-beom",
+    "shirtNumber": 6,
+    "position": "MF",
+    "photoUrl": "/players/pl-kor-06.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-KOR-18",
+    "teamId": "KOR",
+    "name": "Oh Hyeon-gyu",
+    "shortName": "Hyeon-gyu",
+    "shirtNumber": 18,
+    "position": "FW",
+    "photoUrl": "/players/pl-kor-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-KSA-04",
+    "teamId": "KSA",
+    "name": "Abdulelah Al-Amri",
+    "shortName": "Al-Amri",
+    "shirtNumber": 4,
+    "position": "DF",
+    "photoUrl": "/players/pl-ksa-04.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-KSA-05",
+    "teamId": "KSA",
+    "name": "Hassan Al-Tambakti",
+    "shortName": "Al-Tambakti",
+    "shirtNumber": 5,
+    "position": "DF",
+    "photoUrl": "/players/pl-ksa-05.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MAR-01",
+    "teamId": "MAR",
+    "name": "Yassine Bounou",
+    "shortName": "Bounou",
+    "shirtNumber": 1,
+    "position": "GK",
+    "photoUrl": "/players/pl-mar-01.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MAR-02",
+    "teamId": "MAR",
+    "name": "Achraf Hakimi",
+    "shortName": "Hakimi",
+    "shirtNumber": 2,
+    "position": "DF",
+    "photoUrl": "/players/pl-mar-02.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MAR-09",
+    "teamId": "MAR",
+    "name": "Soufiane Rahimi",
+    "shortName": "Rahimi",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-mar-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MAR-11",
+    "teamId": "MAR",
+    "name": "Ismael Saibari",
+    "shortName": "Saibari",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-mar-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MAR-16",
+    "teamId": "MAR",
+    "name": "Gessime Yassine",
+    "shortName": "Yassine",
+    "shirtNumber": 16,
+    "position": "MF",
+    "photoUrl": "/players/pl-mar-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MEX-07",
+    "teamId": "MEX",
+    "name": "Luis Romo",
+    "shortName": "Romo",
+    "shirtNumber": 7,
+    "position": "MF",
+    "photoUrl": "/players/pl-mex-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MEX-08",
+    "teamId": "MEX",
+    "name": "Álvaro Fidalgo",
+    "shortName": "Fidalgo",
+    "shirtNumber": 8,
+    "position": "MF",
+    "photoUrl": "/players/pl-mex-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MEX-09",
+    "teamId": "MEX",
+    "name": "Raúl Jiménez",
+    "shortName": "Jiménez",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-mex-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MEX-16",
+    "teamId": "MEX",
+    "name": "Julián Quiñones",
+    "shortName": "Quiñones",
+    "shirtNumber": 16,
+    "position": "FW",
+    "photoUrl": "/players/pl-mex-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-MEX-20",
+    "teamId": "MEX",
+    "name": "Mateo Chávez",
+    "shortName": "Chávez",
+    "shirtNumber": 20,
+    "position": "DF",
+    "photoUrl": "/players/pl-mex-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NED-04",
+    "teamId": "NED",
+    "name": "Virgil van Dijk",
+    "shortName": "Dijk",
+    "shirtNumber": 4,
+    "position": "DF",
+    "photoUrl": "/players/pl-ned-04.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NED-06",
+    "teamId": "NED",
+    "name": "Jan Paul van Hecke",
+    "shortName": "Hecke",
+    "shirtNumber": 6,
+    "position": "DF",
+    "photoUrl": "/players/pl-ned-06.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NED-11",
+    "teamId": "NED",
+    "name": "Cody Gakpo",
+    "shortName": "Gakpo",
+    "shirtNumber": 11,
+    "position": "FW",
+    "photoUrl": "/players/pl-ned-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NED-19",
+    "teamId": "NED",
+    "name": "Brian Brobbey",
+    "shortName": "Brobbey",
+    "shirtNumber": 19,
+    "position": "FW",
+    "photoUrl": "/players/pl-ned-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NED-24",
+    "teamId": "NED",
+    "name": "Crysencio Summerville",
+    "shortName": "Summerville",
+    "shirtNumber": 24,
+    "position": "FW",
+    "photoUrl": "/players/pl-ned-24.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NOR-04",
+    "teamId": "NOR",
+    "name": "Leo Østigård",
+    "shortName": "Østigård",
+    "shirtNumber": 4,
+    "position": "DF",
+    "photoUrl": "/players/pl-nor-04.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NOR-09",
+    "teamId": "NOR",
+    "name": "Erling Haaland",
+    "shortName": "Haaland",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-nor-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NOR-16",
+    "teamId": "NOR",
+    "name": "Marcus Holmgren Pedersen",
+    "shortName": "Pedersen",
+    "shirtNumber": 16,
+    "position": "DF",
+    "photoUrl": "/players/pl-nor-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NOR-19",
+    "teamId": "NOR",
+    "name": "Thelo Aasgaard",
+    "shortName": "Aasgaard",
+    "shirtNumber": 19,
+    "position": "MF",
+    "photoUrl": "/players/pl-nor-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NZL-11",
+    "teamId": "NZL",
+    "name": "Elijah Just",
+    "shortName": "Just",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-nzl-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-NZL-16",
+    "teamId": "NZL",
+    "name": "Finn Surman",
+    "shortName": "Surman",
+    "shirtNumber": 16,
+    "position": "DF",
+    "photoUrl": "/players/pl-nzl-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-PAR-11",
+    "teamId": "PAR",
+    "name": "Maurício",
+    "shortName": "Maurício",
+    "shirtNumber": 11,
+    "position": "MF",
+    "photoUrl": "/players/pl-par-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-PAR-16",
+    "teamId": "PAR",
+    "name": "Damián Bobadilla",
+    "shortName": "Bobadilla",
+    "shirtNumber": 16,
+    "position": "MF",
+    "photoUrl": "/players/pl-par-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-PAR-23",
+    "teamId": "PAR",
+    "name": "Matías Galarza",
+    "shortName": "Galarza",
+    "shirtNumber": 23,
+    "position": "MF",
+    "photoUrl": "/players/pl-par-23.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-POR-07",
+    "teamId": "POR",
+    "name": "Cristiano Ronaldo",
+    "shortName": "Ronaldo",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-por-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-POR-15",
+    "teamId": "POR",
+    "name": "João Neves",
+    "shortName": "Neves",
+    "shirtNumber": 15,
+    "position": "MF",
+    "photoUrl": "/players/pl-por-15.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-POR-17",
+    "teamId": "POR",
+    "name": "Rafael Leão",
+    "shortName": "Leão",
+    "shirtNumber": 17,
+    "position": "FW",
+    "photoUrl": "/players/pl-por-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-POR-25",
+    "teamId": "POR",
+    "name": "Nuno Mendes",
+    "shortName": "Mendes",
+    "shirtNumber": 25,
+    "position": "DF",
+    "photoUrl": "/players/pl-por-25.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-QAT-01",
+    "teamId": "QAT",
+    "name": "Mahmud Abunada",
+    "shortName": "Abunada",
+    "shirtNumber": 1,
+    "position": "GK",
+    "photoUrl": "/players/pl-qat-01.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-QAT-10",
+    "teamId": "QAT",
+    "name": "Hassan Al-Haydos",
+    "shortName": "Al-Haydos",
+    "shirtNumber": 10,
+    "position": "FW",
+    "photoUrl": "/players/pl-qat-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-QAT-26",
+    "teamId": "QAT",
+    "name": "Mohamed Manai",
+    "shortName": "Manai",
+    "shirtNumber": 26,
+    "position": "FW",
+    "photoUrl": "/players/pl-qat-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-RSA-04",
+    "teamId": "RSA",
+    "name": "Teboho Mokoena",
+    "shortName": "Mokoena",
+    "shirtNumber": 4,
+    "position": "MF",
+    "photoUrl": "/players/pl-rsa-04.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-RSA-12",
+    "teamId": "RSA",
+    "name": "Thapelo Maseko",
+    "shortName": "Maseko",
+    "shirtNumber": 12,
+    "position": "FW",
+    "photoUrl": "/players/pl-rsa-12.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SCO-07",
+    "teamId": "SCO",
+    "name": "John McGinn",
+    "shortName": "McGinn",
+    "shirtNumber": 7,
+    "position": "MF",
+    "photoUrl": "/players/pl-sco-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SEN-13",
+    "teamId": "SEN",
+    "name": "Iliman Ndiaye",
+    "shortName": "Ndiaye",
+    "shirtNumber": 13,
+    "position": "FW",
+    "photoUrl": "/players/pl-sen-13.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SEN-18",
+    "teamId": "SEN",
+    "name": "Ismaïla Sarr",
+    "shortName": "Sarr",
+    "shirtNumber": 18,
+    "position": "FW",
+    "photoUrl": "/players/pl-sen-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SEN-20",
+    "teamId": "SEN",
+    "name": "Ibrahim Mbaye",
+    "shortName": "Mbaye",
+    "shirtNumber": 20,
+    "position": "FW",
+    "photoUrl": "/players/pl-sen-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SEN-21",
+    "teamId": "SEN",
+    "name": "Habib Diarra",
+    "shortName": "Diarra",
+    "shirtNumber": 21,
+    "position": "MF",
+    "photoUrl": "/players/pl-sen-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SEN-26",
+    "teamId": "SEN",
+    "name": "Pape Gueye",
+    "shortName": "Gueye",
+    "shirtNumber": 26,
+    "position": "MF",
+    "photoUrl": "/players/pl-sen-26.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SUI-02",
+    "teamId": "SUI",
+    "name": "Miro Muheim",
+    "shortName": "Muheim",
+    "shirtNumber": 2,
+    "position": "DF",
+    "photoUrl": "/players/pl-sui-02.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SUI-07",
+    "teamId": "SUI",
+    "name": "Breel Embolo",
+    "shortName": "Embolo",
+    "shirtNumber": 7,
+    "position": "FW",
+    "photoUrl": "/players/pl-sui-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SUI-09",
+    "teamId": "SUI",
+    "name": "Johan Manzambi",
+    "shortName": "Manzambi",
+    "shirtNumber": 9,
+    "position": "MF",
+    "photoUrl": "/players/pl-sui-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SUI-10",
+    "teamId": "SUI",
+    "name": "Granit Xhaka",
+    "shortName": "Xhaka",
+    "shirtNumber": 10,
+    "position": "MF",
+    "photoUrl": "/players/pl-sui-10.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SUI-17",
+    "teamId": "SUI",
+    "name": "Rubén Vargas",
+    "shortName": "Vargas",
+    "shirtNumber": 17,
+    "position": "FW",
+    "photoUrl": "/players/pl-sui-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SWE-09",
+    "teamId": "SWE",
+    "name": "Alexander Isak",
+    "shortName": "Isak",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-swe-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SWE-11",
+    "teamId": "SWE",
+    "name": "Anthony Elanga",
+    "shortName": "Elanga",
+    "shirtNumber": 11,
+    "position": "FW",
+    "photoUrl": "/players/pl-swe-11.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SWE-17",
+    "teamId": "SWE",
+    "name": "Viktor Gyökeres",
+    "shortName": "Gyökeres",
+    "shirtNumber": 17,
+    "position": "FW",
+    "photoUrl": "/players/pl-swe-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SWE-18",
+    "teamId": "SWE",
+    "name": "Yasin Ayari",
+    "shortName": "Ayari",
+    "shirtNumber": 18,
+    "position": "MF",
+    "photoUrl": "/players/pl-swe-18.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-SWE-19",
+    "teamId": "SWE",
+    "name": "Mattias Svanberg",
+    "shortName": "Svanberg",
+    "shirtNumber": 19,
+    "position": "MF",
+    "photoUrl": "/players/pl-swe-19.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUN-04",
+    "teamId": "TUN",
+    "name": "Omar Rekik",
+    "shortName": "Rekik",
+    "shirtNumber": 4,
+    "position": "DF",
+    "photoUrl": "/players/pl-tun-04.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUN-09",
+    "teamId": "TUN",
+    "name": "Hazem Mastouri",
+    "shortName": "Mastouri",
+    "shirtNumber": 9,
+    "position": "FW",
+    "photoUrl": "/players/pl-tun-09.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUN-17",
+    "teamId": "TUN",
+    "name": "Ellyes Skhiri",
+    "shortName": "Skhiri",
+    "shirtNumber": 17,
+    "position": "MF",
+    "photoUrl": "/players/pl-tun-17.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUR-08",
+    "teamId": "TUR",
+    "name": "Arda Güler",
+    "shortName": "Güler",
+    "shirtNumber": 8,
+    "position": "FW",
+    "photoUrl": "/players/pl-tur-08.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUR-21",
+    "teamId": "TUR",
+    "name": "Barış Alper Yılmaz",
+    "shortName": "Yılmaz",
+    "shirtNumber": 21,
+    "position": "FW",
+    "photoUrl": "/players/pl-tur-21.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-TUR-22",
+    "teamId": "TUR",
+    "name": "Kaan Ayhan",
+    "shortName": "Ayhan",
+    "shirtNumber": 22,
+    "position": "MF",
+    "photoUrl": "/players/pl-tur-22.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-URU-14",
+    "teamId": "URU",
+    "name": "Agustín Canobbio",
+    "shortName": "Canobbio",
+    "shirtNumber": 14,
+    "position": "MF",
+    "photoUrl": "/players/pl-uru-14.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-URU-20",
+    "teamId": "URU",
+    "name": "Maximiliano Araújo",
+    "shortName": "Araújo",
+    "shirtNumber": 20,
+    "position": "MF",
+    "photoUrl": "/players/pl-uru-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-USA-06",
+    "teamId": "USA",
+    "name": "Auston Trusty",
+    "shortName": "Trusty",
+    "shirtNumber": 6,
+    "position": "DF",
+    "photoUrl": "/players/pl-usa-06.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-USA-07",
+    "teamId": "USA",
+    "name": "Giovanni Reyna",
+    "shortName": "Reyna",
+    "shirtNumber": 7,
+    "position": "MF",
+    "photoUrl": "/players/pl-usa-07.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-USA-14",
+    "teamId": "USA",
+    "name": "Sebastian Berhalter",
+    "shortName": "Berhalter",
+    "shirtNumber": 14,
+    "position": "MF",
+    "photoUrl": "/players/pl-usa-14.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-USA-16",
+    "teamId": "USA",
+    "name": "Alex Freeman",
+    "shortName": "Freeman",
+    "shirtNumber": 16,
+    "position": "DF",
+    "photoUrl": "/players/pl-usa-16.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-USA-20",
+    "teamId": "USA",
+    "name": "Folarin Balogun",
+    "shortName": "Balogun",
+    "shirtNumber": 20,
+    "position": "FW",
+    "photoUrl": "/players/pl-usa-20.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-UZB-12",
+    "teamId": "UZB",
+    "name": "Abduvohid Nematov",
+    "shortName": "Nematov",
+    "shirtNumber": 12,
+    "position": "GK",
+    "photoUrl": "/players/pl-uzb-12.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-UZB-14",
+    "teamId": "UZB",
+    "name": "Eldor Shomurodov",
+    "shortName": "Shomurodov",
+    "shirtNumber": 14,
+    "position": "FW",
+    "photoUrl": "/players/pl-uzb-14.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  {
+    "id": "PL-UZB-22",
+    "teamId": "UZB",
+    "name": "Abbosbek Fayzullaev",
+    "shortName": "Fayzullaev",
+    "shirtNumber": 22,
+    "position": "MF",
+    "photoUrl": "/players/pl-uzb-22.webp",
+    "stats": {
+      "appearances": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  }
+]
