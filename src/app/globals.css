@@ -1,3 +1,162 @@
 @import "tailwindcss";
-
 @custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --canvas: #F9FAFB;
+  --surface: #FFFFFF;
+  --surface-muted: #F3F4F6;
+  --line: #E5E7EB;
+  --line-strong: #6B7280;
+  --fg: #111827;
+  --fg-secondary: #4B5563;
+  --fg-muted: #626B79;
+  --accent-cyan: #00D1FF;
+  --accent-magenta: #FF2BD6;
+  --accent-neon: #39FF14;
+  --accent-cyan-ink: #0E7490;
+  --accent-magenta-ink: #B0006F;
+  --accent-neon-ink: #166534;
+  --on-accent: #0B1220;
+  --success-fg: #166534;
+  --success-bg: #F0FDF4;
+  --success-solid: #16A34A;
+  --warning-fg: #92400E;
+  --warning-bg: #FFFBEB;
+  --warning-solid: #B45309;
+  --danger-fg: #B91C1C;
+  --danger-bg: #FEF2F2;
+  --danger-solid: #DC2626;
+  --info-fg: #0369A1;
+  --info-bg: #F0F9FF;
+  --info-solid: #0284C7;
+  --shadow-card-value: 0 1px 2px 0 rgb(15 23 42 / 0.06), 0 1px 3px 0 rgb(15 23 42 / 0.08);
+  --shadow-pop-value: 0 8px 24px -4px rgb(15 23 42 / 0.16), 0 2px 6px 0 rgb(15 23 42 / 0.08);
+}
+
+.dark {
+  color-scheme: dark;
+  --canvas: #0F172A;
+  --surface: #1E293B;
+  --surface-muted: #283548;
+  --line: #334155;
+  --line-strong: #64748B;
+  --fg: #F8FAFC;
+  --fg-secondary: #CBD5E1;
+  --fg-muted: #A0AEC0;
+  --accent-cyan: #22D3EE;
+  --accent-magenta: #FF5CE1;
+  --accent-neon: #6EF05A;
+  --accent-cyan-ink: #22D3EE;
+  --accent-magenta-ink: #FF5CE1;
+  --accent-neon-ink: #6EF05A;
+  --on-accent: #0B1220;
+  --success-fg: #4ADE80;
+  --success-bg: rgb(74 222 128 / 0.12);
+  --success-solid: #4ADE80;
+  --warning-fg: #FCD34D;
+  --warning-bg: rgb(252 211 77 / 0.12);
+  --warning-solid: #FBBF24;
+  --danger-fg: #FA8383;
+  --danger-bg: rgb(250 131 131 / 0.12);
+  --danger-solid: #F87171;
+  --info-fg: #38BDF8;
+  --info-bg: rgb(56 189 248 / 0.12);
+  --info-solid: #38BDF8;
+  --shadow-card-value: 0 1px 2px 0 rgb(0 0 0 / 0.45);
+  --shadow-pop-value: 0 8px 24px -4px rgb(0 0 0 / 0.6), 0 0 0 1px rgb(51 65 85 / 0.8);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-fg-secondary: var(--fg-secondary);
+  --color-fg-muted: var(--fg-muted);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-magenta: var(--accent-magenta);
+  --color-accent-neon: var(--accent-neon);
+  --color-accent-cyan-ink: var(--accent-cyan-ink);
+  --color-accent-magenta-ink: var(--accent-magenta-ink);
+  --color-accent-neon-ink: var(--accent-neon-ink);
+  --color-on-accent: var(--on-accent);
+  --color-success: var(--success-solid);
+  --color-success-fg: var(--success-fg);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning-solid);
+  --color-warning-fg: var(--warning-fg);
+  --color-warning-bg: var(--warning-bg);
+  --color-danger: var(--danger-solid);
+  --color-danger-fg: var(--danger-fg);
+  --color-danger-bg: var(--danger-bg);
+  --color-info: var(--info-solid);
+  --color-info-fg: var(--info-fg);
+  --color-info-bg: var(--info-bg);
+
+  --shadow-card: var(--shadow-card-value);
+  --shadow-pop: var(--shadow-pop-value);
+}
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-oswald), "Arial Narrow", Impact, sans-serif;
+
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.35;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.45;
+  --text-body: 1rem;
+  --text-body--line-height: 1.5;
+  --text-h3: 1.125rem;
+  --text-h3--line-height: 1.3;
+  --text-h2: 1.375rem;
+  --text-h2--line-height: 1.25;
+  --text-h2-lg: 1.75rem;
+  --text-h2-lg--line-height: 1.2;
+  --text-h1: 1.75rem;
+  --text-h1--line-height: 1.15;
+  --text-h1-lg: 2.5rem;
+  --text-h1-lg--line-height: 1.1;
+  --text-stat: 1.75rem;
+  --text-stat--line-height: 1.1;
+  --text-stat-lg: 2.25rem;
+  --text-stat-lg--line-height: 1.1;
+  --text-score: 2rem;
+  --text-score--line-height: 1;
+  --text-score-lg: 3rem;
+  --text-score-lg--line-height: 1;
+  --text-display: 3rem;
+  --text-display--line-height: 1;
+  --text-display-lg: 4rem;
+  --text-display-lg--line-height: 1;
+
+  --default-transition-duration: 200ms;
+  --default-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  @keyframes shimmer {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--canvas);
+    color: var(--fg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
