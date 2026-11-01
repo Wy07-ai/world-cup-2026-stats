@@ -160,8 +160,21 @@ function buildTable(
 }
 
 /** Urutan menurun: nilai lebih besar lebih dulu. */
-function descending(a: number, b: number): number {
+export function descending(a: number, b: number): number {
   return b - a;
+}
+
+/**
+ * Pembanding kriteria 1-3 PRD Bab 6.1: poin, selisih gol, gol memasukkan.
+ * Diekspor agar calculateBestThirds memakai logika yang sama persis
+ * (PRD Bab 6.2 langkah 3) dan tidak menduplikasinya.
+ */
+export function compareByPointsGdGf(a: GroupStanding, b: GroupStanding): number {
+  return (
+    descending(a.points, b.points) ||
+    descending(a.goalDifference, b.goalDifference) ||
+    descending(a.goalsFor, b.goalsFor)
+  );
 }
 
 function compareText(a: string, b: string): number {
@@ -234,12 +247,7 @@ export function calculateStandings(
 
   // Langkah 1-3: poin, GD, GF. Pengurutan ini hanya membentuk kelompok imbang;
   // urutan di dalam kelompok imbang diputuskan oleh resolveTiedCluster.
-  const ranked = [...table.values()].sort(
-    (a, b) =>
-      descending(a.points, b.points) ||
-      descending(a.goalDifference, b.goalDifference) ||
-      descending(a.goalsFor, b.goalsFor),
-  );
+  const ranked = [...table.values()].sort(compareByPointsGdGf);
 
   const result: GroupStanding[] = [];
   let start = 0;
