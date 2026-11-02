@@ -46,6 +46,13 @@ interface TabsCommonProps {
   className?: string;
   /** Kelas tambahan untuk area panel. */
   panelClassName?: string;
+  /**
+   * Render SEMUA panel ke HTML; panel tidak aktif diberi atribut `hidden`.
+   * Dipakai halaman statis (SSG) agar isi seluruh tab ada di HTML awal untuk
+   * SEO dan tetap tersedia sebelum JavaScript aktif. Bawaan: false (hanya
+   * panel aktif yang dirender).
+   */
+  renderAllPanels?: boolean;
 }
 
 /** Mode terkontrol: induk memegang nilai tab aktif. */
@@ -78,6 +85,7 @@ export function Tabs(props: TabsProps) {
     stickyOffsetClassName = "top-[calc(3.5rem+1px)]",
     className,
     panelClassName,
+    renderAllPanels = false,
   } = props;
 
   const baseId = useId();
@@ -181,7 +189,7 @@ export function Tabs(props: TabsProps) {
                 id={tabId(item.id)}
                 aria-selected={selected}
                 aria-controls={
-                  selected && item.panel !== undefined
+                  (selected || renderAllPanels) && item.panel !== undefined
                     ? panelId(item.id)
                     : undefined
                 }
@@ -215,7 +223,27 @@ export function Tabs(props: TabsProps) {
         </div>
       </div>
 
-      {activeItem && activeItem.panel !== undefined ? (
+      {renderAllPanels
+        ? items.map((item) =>
+            item.panel === undefined ? null : (
+              <div
+                key={item.id}
+                role="tabpanel"
+                id={panelId(item.id)}
+                aria-labelledby={tabId(item.id)}
+                hidden={item.id !== activeId}
+                tabIndex={0}
+                className={cn(
+                  "pt-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-cyan-ink",
+                  panelClassName,
+                )}
+              >
+                {item.panel}
+              </div>
+            ),
+          )
+        : activeItem && activeItem.panel !== undefined
+          ? (
         <div
           role="tabpanel"
           id={panelId(activeItem.id)}
@@ -228,7 +256,7 @@ export function Tabs(props: TabsProps) {
         >
           {activeItem.panel}
         </div>
-      ) : null}
+          ) : null}
     </div>
   );
 }

@@ -73,7 +73,7 @@ const items = [{ id: "A", label: "Grup A", panel: <GroupA /> }, /* ... */];
 <Tabs items={items} ariaLabel="Pilih grup" value={group} onValueChange={setGroup} />
 ```
 
-Props: `items: { id, label, disabled?, panel? }[]`, `ariaLabel` (wajib), `value` + `onValueChange` (terkontrol) **atau** `defaultValue` (tak terkontrol), `sticky` (bawaan `true`), `stickyOffsetClassName` (bawaan `top-[calc(3.5rem+1px)]` = tinggi Navbar `h-14` + border), `className`, `panelClassName`.
+Props: `items: { id, label, disabled?, panel? }[]`, `ariaLabel` (wajib), `renderAllPanels` (bawaan `false`; bila `true`, SEMUA panel dirender ke HTML dan panel tidak aktif diberi `hidden`, dipakai halaman SSG seperti `/groups` agar isi semua tab terbaca mesin pencari), `value` + `onValueChange` (terkontrol) **atau** `defaultValue` (tak terkontrol), `sticky` (bawaan `true`), `stickyOffsetClassName` (bawaan `top-[calc(3.5rem+1px)]` = tinggi Navbar `h-14` + border), `className`, `panelClassName`.
 Keyboard: ←/→ (berputar), Home/End; roving tabindex; tab aktif otomatis tergulir ke tengah. Bila `panel` tidak diisi, Tabs hanya penyeleksi dan pemanggil merender isi sendiri.
 
 ## Modal (client)
